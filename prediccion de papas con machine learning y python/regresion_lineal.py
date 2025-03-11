@@ -36,6 +36,10 @@ regressor.fit(X_train,y_train)
 #hacer la prediccion 
 y_pred = regressor.predict(X_test)
 
+plt.figure(figsize=(10,6))
+
+
+
 
 
 
